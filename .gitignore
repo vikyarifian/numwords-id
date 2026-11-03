@@ -1,0 +1,5 @@
+numwords-id
+numwords-id.exe
+vendor/
+*.log
+.DS_Store
