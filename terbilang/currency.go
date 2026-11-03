@@ -11,3 +11,10 @@ type CurrencyFormatter struct {
 	SubunitName  string
 }
 
+func DefaultRupiahFormatter() CurrencyFormatter {
+	return CurrencyFormatter{
+		CurrencyName: "rupiah",
+		SubunitName:  "sen",
+	}
+}
+
